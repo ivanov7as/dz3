@@ -21,7 +21,7 @@ def countelement(s):
     for i in range(len(result)):
         if result[i] not in l2:
             l2.append(result[i])
-    return print("Повторяющиеся 10 и более раз слова:", *l2)
+    return print("Повторяющиеся 10 и более раз:", *l2)
 
 
 def countwords(s):
